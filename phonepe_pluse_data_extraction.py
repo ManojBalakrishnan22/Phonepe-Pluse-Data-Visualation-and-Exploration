@@ -270,12 +270,12 @@ def fetch_data():
         create_tables(cursor)
         cursor.close()
         conn.commit()
-    path = r'C:\Users\Admin\Music\pulse-master\pulse-master\data\aggregated\transaction\country\india\state'
-    path1 = r'C:\Users\Admin\Music\pulse-master\pulse-master\data\aggregated\user\country\india\state'
-    path2 = r'C:\Users\Admin\Music\pulse-master\pulse-master\data\map\transaction\hover\country\india\state'
-    path3 = r'C:\Users\Admin\Music\pulse-master\pulse-master\data\map\user\hover\country\india\state'
-    path4 = r'C:\Users\Admin\Music\pulse-master\pulse-master\data\top\transaction\country\india\state'
-    path5 = r'C:\Users\Admin\Music\pulse-master\pulse-master\data\top\user\country\india\state'
+    path = r'C:\Users\Admin\Videos\pulse_repo\data\aggregated\transaction\country\india\state'
+    path1 = r'C:\Users\Admin\Videos\pulse_repo\data\aggregated\user\country\india\state'
+    path2 = r'C:\Users\Admin\Videos\pulse_repo\data\map\transaction\hover\country\india\state'
+    path3 = r'C:\Users\Admin\Videos\pulse_repo\data\map\user\hover\country\india\state'
+    path4 = r'C:\Users\Admin\Videos\pulse_repo\data\top\transaction\country\india\state'
+    path5 = r'C:\Users\Admin\Videos\pulse_repo\data\top\user\country\india\state'
     transaction_aggregate(path)
     user_aggregate(path1)
     map_transaction(path2)
